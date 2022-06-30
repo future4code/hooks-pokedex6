@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import axios from "axios"
+import axios from "axios";
 import styled from "styled-components";
 
 const Header=styled.div`
@@ -29,7 +29,7 @@ const Home = () => {
     .then((res)=>{
         setPokemon(res.data.results)
     }).catch((erro)=>{
-        
+        console.log()
     })
    }
    
