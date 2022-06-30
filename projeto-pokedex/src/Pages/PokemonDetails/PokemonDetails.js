@@ -1,11 +1,11 @@
 import React from "react";
 
 const PokemonDetails = () => {
-    return (
+  return (
     <div>
-        <h1>PokemonDetails</h1>
+      <h1>PokemonDetails</h1>
     </div>
-    )
-}
+  );
+};
 
 export default PokemonDetails;
