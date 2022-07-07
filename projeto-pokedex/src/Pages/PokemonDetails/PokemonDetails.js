@@ -7,7 +7,10 @@ const Header = styled.div`
   display: flex;
   background: red;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+`
+const ImgHeader = styled.img`
+  cursor: pointer;
 `
 
 const PokemonDetails = () => {
@@ -16,8 +19,9 @@ const PokemonDetails = () => {
   return (
     <div>
       <Header>
-        <img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" onClick={() => navigate("/")}/>
-        <img src={pokebola} onClick={() => navigate("/pokedex")}/> 
+        <br></br>
+        <ImgHeader src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" onClick={() => navigate("/")}/>
+        <ImgHeader src={pokebola} onClick={() => navigate("/pokedex")}/> 
       </Header>
       <PokemonDetailsCards/>
       
