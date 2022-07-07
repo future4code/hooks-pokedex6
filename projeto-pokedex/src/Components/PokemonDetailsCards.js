@@ -16,19 +16,19 @@ const CardStats = styled.div`
     padding: 10px;
     border-radius: 15px;
     background-color: #F3F3F3;
-    box-shadow:  5px 5px 10px #d9d9d9;
+    box-shadow: 5px 5px 10px #d9d9d9;
 `
 const CardMoves = styled.div`
     padding: 10px;
     border-radius: 15px;
     background-color: #F3F3F3;
-    box-shadow:  5px 5px 10px #d9d9d9;
+    box-shadow: 5px 5px 10px #d9d9d9;
 `	
 const CardTypes = styled.div`
     padding: 10px;
     border-radius: 15px;
     background-color: #F3F3F3;
-    box-shadow:  5px 5px 10px #d9d9d9; 
+    box-shadow: 5px 5px 10px #d9d9d9; 
 `
 const ContainerTypesAndMovies = styled.div`
     display: flex;
@@ -41,7 +41,7 @@ const ContainerImg = styled.div`
     padding: 10px;
     border-radius: 15px;
     background-color: #F3F3F3;
-    box-shadow:  5px 5px 10px #d9d9d9;
+    box-shadow: 5px 5px 10px #d9d9d9;
 `
 const PokemonImg = styled.img`
     width: 200px;
