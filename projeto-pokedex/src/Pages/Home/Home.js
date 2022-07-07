@@ -6,6 +6,16 @@ import PokemonCard from "../../Components/PokemonCard";
 import styled from "styled-components";
 import pokebola from "../../Pages/Home/assets/pokebola.png"
 
+const END=styled.div`
+background-color: white;
+height: 100px;
+align-items: center;
+justify-content: center;
+
+`
+const Body=styled.div`
+background: black;
+`
 const Header = styled.div`
   display: flex;
   background: red;
@@ -19,10 +29,12 @@ const Caixa = styled.div`
   row-gap: 20px;
   column-gap: 20px;
   margin: 20px; 
-   
- div{
+  
+ 
+  div{
  background-color: grey;
  border-radius: 10%;
+ 
 
  }
  button{
@@ -84,16 +96,17 @@ const Home = () => {
 
 
   return (
-    <div>
+    <Body>
       <Header>
         
         <ButtonPokebola onClick={() => navigate("pokedex")}> <img src={pokebola}/> </ButtonPokebola>
         
         <img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png"></img>
       </Header>
-
       <Caixa>{pokemonzinho}</Caixa>
-    </div>
+     <END></END>
+    </Body>
+    
   );
 };
 
