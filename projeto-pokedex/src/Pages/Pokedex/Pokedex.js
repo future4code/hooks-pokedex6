@@ -3,6 +3,7 @@ import PokemonCard from "../../Components/PokemonCard";
 import GlobalStateContext from "../../Global/GlobalStateContext";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import seta from "../../Pages/Home/assets/arrow.png";
 
 const Header = styled.div`
   display: flex;
@@ -19,6 +20,10 @@ const Caixa = styled.div`
   margin: 20px;
 `;
 
+const ContainerButtonBack = styled.div`
+  margin-right: 50px;
+`;
+
 const Pokedex = () => {
   const { pokedex } = useContext(GlobalStateContext);
   const navigate = useNavigate();
@@ -26,9 +31,12 @@ const Pokedex = () => {
   return (
     <div>
       <Header>
-        <button onClick={() => navigate("/")}>
-          Voltar para lista de Pokemons
-        </button>
+        <ContainerButtonBack>
+          <div onClick={() => navigate("/")}>
+            <img src={seta} width="45px" />
+          </div>
+        </ContainerButtonBack>
+
         <img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png"></img>
       </Header>
       <h1>Pokedex</h1>
