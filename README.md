@@ -1,16 +1,22 @@
-# POKEDEX
+<h1 align="center">POKEDEX</h1>
 
-Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+<h2>Integrantes</h2> 
+<p><a href="https://github.com/DiogoB0mfim">Diogo Bomfim</a></p>
+<p><a href="https://github.com/ElreversoMain">Felipe de Oliveira Santos</a></p>
+<p><a href="https://github.com/natashagomesr">Natasha Gomes Reis</a></p>
 
-Link do Surge: www.link.com.br
+<h2>Surge: www.link.com.br</h2>
 
-O que funciona:
-- Item 1
-- Item 2
+<h2>Tecnologias usadas</h2>
+Axios
+<br></br>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
 
-O que não funciona: 
-- Item 3
-- Item 4
+<h2>O que funciona</h2>
+<p>Home com pokémons</p>
+<p>Adicionar pokémon a pokedex</p>
+<p>Remover pokémon da pokedex</p>
+<p>Ver detalhes do pokemon</p>
+
+
