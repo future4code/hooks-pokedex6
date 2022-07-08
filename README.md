@@ -5,7 +5,7 @@
 <p><a href="https://github.com/ElreversoMain">Felipe de Oliveira Santos</a></p>
 <p><a href="https://github.com/natashagomesr">Natasha Gomes Reis</a></p>
 
-<h2>Surge: www.link.com.br</h2>
+<h2>Surge: blue-authority.surge.sh</h2>
 
 <h2>Tecnologias usadas</h2>
 Axios
@@ -19,4 +19,8 @@ Axios
 <p>Remover pokémon da pokedex</p>
 <p>Ver detalhes do pokemon</p>
 
+<h2>Preview do site</h2>
+<img src="https://i.imgur.com/srqYh8m.png">
+<img src="https://i.imgur.com/kfBvsYh.png">
+<img src="https://i.imgur.com/TwDEDuk.png">
 
