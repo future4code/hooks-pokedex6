@@ -6,7 +6,7 @@
 <p><a href="https://github.com/natashagomesr">Natasha Gomes Reis</a></p>
 
 <h2>Surge</h2>
-<p><a href="https://blue-authority.surge.sh/">https://blue-authority.surge.sh</a>/</p>
+<p><a href="https://blue-authority.surge.sh/">https://blue-authority.surge.sh</a></p>
 
 <h2>Tecnologias usadas</h2>
 Axios
